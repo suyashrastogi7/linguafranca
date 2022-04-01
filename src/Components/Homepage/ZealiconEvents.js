@@ -1,16 +1,18 @@
 import React from "react";
 
 //Components
-import Slider from "../Slider";
+import SliderComponent from "../Slider";
 
 const ZealiconEvents = () => {
   return (
-    <div className="my-9 h-screen ">
+    <div className=" mt-9">
       <div className="my-auto">
-        <h1 className="text-5xl font-semibold text-center mb-9">
+        <h1 className="text-5xl font-semibold text-center my-9">
           Our Events in Zealicon
         </h1>
-        <Slider />
+        <div className="mt-9 pt-9">
+          <SliderComponent />
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import OurTeam from "../Components/Homepage/OurTeam";
 const Homepage = () => {
   return (
     <div>
-      <div className="mb-9">
+      <div className="flex flex-col">
         <Landing />
         <About />
         <Events />
