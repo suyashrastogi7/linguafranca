@@ -1,21 +1,22 @@
 import React from "react";
 
 //Components
-import Tweet from "../Components/Tweets";
-import SliderComponent from "../Components/Slider";
-import About from "../Components/About";
-
-//Images
-import background from "../Images/background.jpg";
+import Landing from "../Components/Homepage/Landing";
+import About from "../Components/Homepage/About";
+import Events from "../Components/Homepage/Events";
+import ZealiconEvents from "../Components/Homepage/ZealiconEvents";
+import OurTeam from "../Components/Homepage/OurTeam";
 
 const Homepage = () => {
   return (
     <div>
-      <div className="flex justify-between my-9">
-        <SliderComponent />
-        <Tweet />
+      <div className="mb-9">
+        <Landing />
+        <About />
+        <Events />
+        <ZealiconEvents />
+        <OurTeam />
       </div>
-      <About />
     </div>
   );
 };
