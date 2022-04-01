@@ -26,6 +26,7 @@ const SliderComponent = () => {
         style={{ ...style, display: "block", width: "5%", height: "5%" }}
         src={next_arrow}
         onClick={onClick}
+        alt="next arrow"
       />
     );
   }
