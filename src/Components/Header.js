@@ -12,7 +12,7 @@ const Header = () => {
     } else {
       setShow(false);
     }
-  }, []);
+  }, [width]);
   return (
     <div className="px-9 bg-black">
       <div className="flex lg:flex-row flex-col">
