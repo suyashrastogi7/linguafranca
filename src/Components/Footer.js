@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="bg-black p-9">
       <h1 className="text-3lg text-white font-semibold">Contact Us</h1>
       <div className="flex xl:flex-row flex-col my-auto gap-8">
-        <div className="flex lg-flex-row flex-col border-r my-8 grow">
+        <div className="flex lg:flex-row flex-col border-r my-8 grow">
           <div className="flex lg:mr-6 mr-0 lg:my-0 my-5">
             <img className="h-8 mx-3 scale-125" src={gmail} alt="gmail" />
             <p className="text-white text-lg">linguafrancajssaten@gmail.com</p>
