@@ -55,12 +55,12 @@ const SliderComponent = () => {
   }
 
   return (
-    <div className="lg:w-10/12 w-11/12 mx-auto mb-9">
+    <div className="lg:w-10/12 w-11/12 mx-auto mb-9 z-10">
       <Slider {...settings}>
-        <div className="flex flex-col lg:w-8/12 w-auto justify-around lg:mx-4 mx-2 lg:p-9 p-2 text-center rounded-lg bg-[#e6e6e6]">
+        <div className="flex flex-col lg:w-8/12 w-auto justify-around lg:mx-4 mx-0 lg:p-9 p-2 text-center rounded-lg bg-[#e6e6e6]">
           <h1 className="text-2xl font-semibold">Tasveer-e-sheer-o-shayari</h1>
           <img src={download} alt="download" className="my-2 scale-90" />
-          <p className="text-[#5A5A5A] text-justify">
+          <p className="text-[#5A5A5A]">
             Giving wings to imagination tasveer e sheer o Shayari is the most
             fun and amazing event. In this event, 4-5 slides of pictures are to
             be shown and one has to fabricate poetry/Shayari related to it. this
@@ -71,7 +71,7 @@ const SliderComponent = () => {
         <div className="flex flex-col lg:w-8/12 w-full justify-around lg:mx-4 mx-2 lg:p-6 p-2 text-center rounded-lg bg-[#e6e6e6] translate-y-16">
           <h1 className="text-2xl font-semibold">Graffiti</h1>
           <img src={download} alt="download" className="my-2 scale-90" />
-          <p className="text-[#5A5A5A] text-justify">
+          <p className="text-[#5A5A5A]">
             Graffiti is a free-style t-shirt painting competition. a fun outlet
             for all artistic minds to get to make their own customized tee and
             feel the joy to wear their own designed fit
@@ -80,7 +80,7 @@ const SliderComponent = () => {
         <div className="flex flex-col lg:w-8/12 w-auto justify-around lg:mx-4 mx-2 lg:p-6 p-2 text-center rounded-lg bg-[#e6e6e6] ">
           <h1 className="text-2xl font-semibold">Comic oodle</h1>
           <img src={download} alt="download" className="my-2 scale-90" />
-          <p className="text-[#5A5A5A] text-justify">
+          <p className="text-[#5A5A5A]">
             An event for creative heads and writers to showcase their talent.
             Here in comic oodle, all the participants will be provided with a
             comic for some time and then taken away. Then participants will
@@ -91,7 +91,7 @@ const SliderComponent = () => {
         <div className="flex flex-col lg:w-8/12 w-auto justify-around lg:mx-4 mx-2 lg:p-6 p-2 text-center rounded-lg bg-[#e6e6e6] translate-y-16">
           <h1 className="text-2xl font-semibold">Comic oodle</h1>
           <img src={download} alt="download" className="my-2 scale-90" />
-          <p className="text-[#5A5A5A] text-justify">
+          <p className="text-[#5A5A5A]">
             An event for creative heads and writers to showcase their talent.
             Here in comic oodle, all the participants will be provided with a
             comic for some time and then taken away. Then participants will

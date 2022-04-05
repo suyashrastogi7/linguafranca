@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../Components/Header";
+import { Element } from "react-scroll";
 
 //Components
 import Landing from "../Components/Homepage/Landing";
@@ -11,11 +13,22 @@ const Homepage = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <Landing />
-        <About />
-        <Events />
+        <div className="sticky top-0 z-50">
+          <Header />
+        </div>
+        <Element name="whypricesng" className="element">
+          <Landing />
+        </Element>
+        <Element name="about" className="element">
+          <About />
+        </Element>
+        <Element name="events" className="element">
+          <Events />
+        </Element>
         <ZealiconEvents />
-        <OurTeam />
+        <Element name="team" className="element">
+          <OurTeam />
+        </Element>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import raj from "../../Images/raj.png";
 import abhay from "../../Images/abhay.png";
 import rishit from "../../Images/rishit.png";
-import facebook from "../../Images/facebook.svg";
+import linkedin from "../../Images/linkedin.svg";
 import instagram from "../../Images/instagram.svg";
 
 const OurTeam = () => {
@@ -16,7 +16,7 @@ const OurTeam = () => {
       className="mt-9 flex flex-col bg-gradient-to-t from-black to-white"
       style={{ paddingBottom: "20%" }}
     >
-      <h1 className="xl:text-5xl text-4xl font-semibold text-center lg:my-9 my-2">
+      <h1 className="lg:text-5xl text-4xl font-semibold text-center lg:my-9 my-2">
         Our Team
       </h1>
       <div className="grid lg:grid-cols-3 grid-cols-1 text-center lg:mt-9 mt-3">
@@ -28,12 +28,28 @@ const OurTeam = () => {
               } z-50 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex`}
               onMouseOver={() => setShow1(true)}
             >
-              <img src={facebook} alt="facebook_icon" />
-              <img src={instagram} alt="facebook_icon" className="ml-5" />
+              <img
+                src={linkedin}
+                alt="facebook_icon"
+                className="w-12 cursor-pointer"
+                onClick={() => {
+                  window.location.href =
+                    "https://www.linkedin.com/in/rishit-sethi-9a137b191";
+                }}
+              />
+              <img
+                src={instagram}
+                alt="facebook_icon"
+                className="ml-5 cursor-pointer"
+                onClick={() => {
+                  window.location.href =
+                    "https://instagram.com/rishitsethi?utm_medium=copy_link";
+                }}
+              />
             </div>
             <img
               src={rishit}
-              className="h-64 w-64 mx-auto my-3 hover:brightness-50 ease-in-out"
+              className="h-64 w-64 mx-auto my-3 hover:brightness-50 transition ease-in-out"
               alt=""
               onMouseOver={() => setShow1(true)}
               onMouseLeave={() => setShow1(false)}
@@ -52,8 +68,24 @@ const OurTeam = () => {
               } z-50 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex`}
               onMouseOver={() => setShow2(true)}
             >
-              <img src={facebook} alt="facebook_icon" />
-              <img src={instagram} alt="facebook_icon" className="ml-5" />
+              <img
+                src={linkedin}
+                alt="facebook_icon"
+                className="w-12 cursor-pointer"
+                // onClick={() => {
+                //   window.location.href =
+                //     "https://www.linkedin.com/in/rishit-sethi-9a137b191";
+                // }}
+              />
+              <img
+                src={instagram}
+                alt="facebook_icon"
+                className="ml-5 cursor-pointer"
+                onClick={() => {
+                  window.location.href =
+                    "https://instagram.com/abhay_singh_bhadauria?utm_medium=copy_link";
+                }}
+              />
             </div>
             <img
               src={abhay}
@@ -76,8 +108,24 @@ const OurTeam = () => {
               } z-50 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex`}
               onMouseOver={() => setShow3(true)}
             >
-              <img src={facebook} alt="facebook_icon" />
-              <img src={instagram} alt="facebook_icon" className="ml-5" />
+              <img
+                src={linkedin}
+                alt="facebook_icon"
+                className="w-12 cursor-pointer"
+                onClick={() => {
+                  window.location.href =
+                    "https://www.linkedin.com/in/raj-shahi-90433b219";
+                }}
+              />
+              <img
+                src={instagram}
+                alt="facebook_icon"
+                className="ml-5 cursor-pointer"
+                onClick={() => {
+                  window.location.href =
+                    "https://instagram.com/shahi.raj_?utm_medium=copy_link";
+                }}
+              />
             </div>
             <img
               src={raj}

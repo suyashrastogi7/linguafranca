@@ -1,9 +1,3 @@
-.slick-slide {
-  margin: 0 30px;
-}
-.slick-list {
-  margin: 0 -30px;
-}
-.slick-track {
-  height: 350px;
-}
+/* .slick-slide {
+  display: "flex";
+} */

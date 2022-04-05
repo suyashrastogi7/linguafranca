@@ -9,7 +9,9 @@ import instagram from "../Images/instagram.svg";
 const Footer = () => {
   return (
     <div className="bg-black p-9">
-      <h1 className="text-3lg text-white font-semibold">Contact Us</h1>
+      <h1 className="lg:text-5xl text-4xl text-white font-semibold">
+        Contact Us
+      </h1>
       <div className="flex xl:flex-row flex-col my-auto gap-8">
         <div className="flex lg:flex-row flex-col border-r my-8 grow">
           <div className="flex lg:mr-6 mr-0 lg:my-0 my-5">

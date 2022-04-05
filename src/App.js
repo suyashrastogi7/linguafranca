@@ -2,24 +2,28 @@ import "./App.css";
 
 //Modules
 import { Routes, Route } from "react-router-dom";
+import { Element } from "react-scroll";
 
 //Components
-import Header from "./Components/Header";
+
 import Footer from "./Components/Footer";
 
 //Pages
 import Homepage from "./Pages/Homepage";
 import NotFound from "./Pages/NotFound";
+import More from "./Pages/More";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/more" element={<More />} />
       </Routes>
-      <Footer />
+      <Element name="contact" className="element">
+        <Footer />
+      </Element>
     </div>
   );
 }
