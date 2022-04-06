@@ -7,7 +7,8 @@ import "./slider.css";
 
 //Images
 import next_arrow from "../Images/next_arrow.svg";
-import download from "../Images/download.jpg";
+import painting from "../Images/painting.png";
+import speaking2 from "../Images/speaking3.png";
 
 const CardSlider = () => {
   function SampleNextArrow(props) {
@@ -66,7 +67,7 @@ const CardSlider = () => {
             </h1>
             <img
               className="rounded-2xl mx-auto lg:h-auto lg:w-auto scale-90 mb-9"
-              src={download}
+              src={speaking2}
               alt="blogpics"
             />
             <p className="px-4 text-justify mt-9">
@@ -83,10 +84,10 @@ const CardSlider = () => {
             <h1 className="font-semibold text-2xl mt-2 ">Graffiti</h1>
             <img
               className="rounded-2xl mx-auto lg:h-auto lg:w-auto scale-90 mb-9"
-              src={download}
+              src={painting}
               alt="blogpics"
             />
-            <p className="px-4 text-justify mt-9" style={{ marginTop: "90px" }}>
+            <p className="px-4 text-justify mt-9">
               Graffiti is a free-style t-shirt painting competition. a fun
               outlet for all artistic minds to get to make their own customized
               tee and feel the joy to wear their own designed fit
@@ -98,7 +99,7 @@ const CardSlider = () => {
             <h1 className="font-semibold text-2xl mt-2">Comic oodle</h1>
             <img
               className="rounded-2xl mx-auto lg:h-auto lg:w-auto scale-90 mb-9 pb-3"
-              src={download}
+              src={speaking2}
               alt="blogpics"
             />
             <p className="px-4 text-justify mt-9">
@@ -115,7 +116,7 @@ const CardSlider = () => {
             <h1 className="font-semibold text-2xl mt-2">Word Snipping</h1>
             <img
               className="rounded-2xl mx-auto lg:h-auto lg:w-auto scale-90"
-              src={download}
+              src={painting}
               alt="blogpics"
             />
             <p className="px-4 text-justify">
