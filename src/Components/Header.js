@@ -41,7 +41,7 @@ const Header = () => {
             show ? "translate-x-0 inline-block" : "translate-x-full hidden"
           } ease-in-out`}
         >
-          {url === "http://localhost:3000/" ? (
+          {url === "https://www.linguafranca.club/" ? (
             <ul className="flex lg:flex-row flex-col">
               <li>
                 <img
